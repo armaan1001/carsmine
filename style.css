@@ -1,0 +1,183 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.5;
+	height: 100%;
+
+	perspective: 1px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	transform-style: preserve-3d;
+	
+
+}
+.section1{
+	box-sizing: border-box;
+	min-height: 100vh;
+	padding: 10vh 10vh;
+	position: relative;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+
+	transform-style: inherit;
+}
+.section1 h1{
+	font-weight: normal;
+	color: hsl(0, 0%, 100%);
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0;
+	font-size: 60px;
+	text-shadow: 0 0 3px #000000b8;
+	
+}
+.a:hover:hover{
+	color: black !important;
+}
+.section1:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	background-image: url('file:///C:/Users/acer/Downloads/SUV3.jpg');
+	background-size: cover;
+	z-index: -1;
+	min-height: 100vh; 
+
+	transform: translateZ(-1px) scale(2);
+}
+
+.section2{
+	padding: 10vh;
+	background-color: hsl(0, 0%, 0%);
+	box-sizing: border-box;
+	position: relative;
+	z-index: 2;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.section3{
+	box-sizing: border-box;
+	min-height: 100vh;
+	padding: 10vh 10vh;
+	position: relative;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transform-style: inherit;
+}
+
+.section3 h1{
+	color: #fff;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0;
+	font-size: 60px;
+	text-shadow: 0 0 3px #000000b8;
+}
+.section3:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	background-image: url('file:///C:/Users/acer/Downloads/sedan3.jpg');
+	background-size: cover;
+	z-index: -1;
+	min-height: 100vh; 
+
+	transform: translateZ(-1px) scale(2);
+}
+.section4{
+	padding: 10vh;
+	background-color: hsl(0, 0%, 0%);
+	position: relative;
+	z-index: 2;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.section5{
+	box-sizing: border-box;
+	min-height: 100vh;
+	padding: 10vh 10vh;
+	position: relative;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transform-style: inherit;
+}
+
+.section5 h1{
+	color: #fff;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	text-align: center;
+	margin: 0;
+	font-size: 60px;
+	text-shadow: 0 0 3px #000000b8;
+}
+.section5:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	background-image: url('file:///C:/Users/acer/Downloads/SPORTS2.jpg');
+	background-size: cover;
+	z-index: -1;
+	min-height: 100vh; 
+
+	transform: translateZ(-1px) scale(2);
+}
+.section6{
+	padding: 10vh;
+	background-color:  hsl(0, 0%, 0%);
+	position: relative;
+	z-index: 2;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.section7{
+	padding: 10vh;
+	background-color:  hsl(78, 69%, 48%);
+	position: relative;
+	z-index: 2;
+	min-height: 100vh;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	box-sizing: border-box;
+	margin:0;
+  display:flex;
+  align-items:left;
+  justify-content: left;
+  height: 100vh;
+}
